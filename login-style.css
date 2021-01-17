@@ -1,0 +1,260 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Style the body */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+/* Style the main content section */
+
+.main {
+	height: 800px;
+}
+
+.main-box {
+	width: 50%;
+	display: inline-block;
+	height: 800px;
+}
+
+.info-mobile {
+	display: none;
+}
+
+.info {
+	background-color: #6200EA;
+	color: #FFF;
+	position: relative;
+	float: left;
+}
+
+.logobar {
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+.highlights {
+	width: max-content;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+
+.highlights li {
+	padding: 31px 0;
+}
+
+.fas {
+	width: 40px;
+	height: 40px;
+	color: #6200EA;
+	background-color: #FFF;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+.form {
+	background-image: url(assets/bailey-zindel-396398-unsplash.jpg);
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.login-box {
+	width: 540px;
+	background-color: #FFF;
+	padding: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	margin: 7.5px 0;
+	background-color: #F4F3F5;
+	border: none;
+}
+
+input[type=text] {
+	padding-left: 24px;
+}
+
+input[type=text]:focus, textarea:focus {
+	border-bottom: 2px solid #6200EA;
+}
+
+::placeholder {
+	color: #211138;
+	opacity: 0.25;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 50px;
+	text-transform: uppercase;
+	border-radius: 24px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2.4px;
+	cursor: pointer;
+}
+
+.button:hover {
+	text-decoration: underline;
+}
+
+.reminder {
+	display: block;
+	width: 100%;
+	text-align: right;
+	margin: 10px 0 30px;
+	color: #6200EA;
+	text-decoration: none;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.reminder:hover {
+	text-decoration: underline;
+}
+
+.signup {
+	background-color: #6200EA;
+	color: #FFF;
+}
+
+.login {
+	color: #6200EA;
+}
+
+/* Style the footer */
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #211138;
+	color: #B2ACBA;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	text-transform: uppercase;
+	clear: both;
+	letter-spacing: 2.4px;
+}
+
+.purple {
+	color: #6200EA;
+}
+	
+
+/* Responsive styles */
+
+@media screen and (max-width: 1154px) {
+	
+	.main {
+		height: initial;
+	}
+	
+	.main-box {
+		width: 100%;
+		height: 600px;
+		display: block;
+	}
+	
+	.info {
+		float: none;
+		display: none;
+	}
+	
+	.info-mobile {
+		display: block;
+		height: initial;
+		background-color: #6200EA;
+		color: #FFF;
+		padding: 18px 0;
+	}
+	
+	.logobar {
+		width: 100%;
+		text-align: center;
+		left: 0;
+	}
+	
+	.login-box {
+		width: 95%;
+		padding: 12px;
+	}
+	
+	.title {
+		font-size: 28px;
+		margin-bottom: 12px;
+	}
+	
+	.highlights {
+		position: initial;
+		top: 0;
+		left: 0;
+		transform: none;
+		font-size: 20px;
+		padding: 12px 0;
+		margin: 0 auto;
+	}
+	
+	.highlights li {
+		padding: 12px 0;
+	}
+	
+	.footer {
+		height: initial;
+		line-height: 25px;
+		padding: 16px 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
