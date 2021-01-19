@@ -4,7 +4,7 @@
 
 /* Safari fix for buttons */
 
-input[type=text], input[type=button] {
+input[type=text], input[type=button], input[type="submit"] {
 -webkit-appearance: none;
 -webkit-border-radius: 0;
 }
@@ -19,13 +19,13 @@ body {
 /* Style the main content section */
 
 .main {
-	height: 800px;
+	height: calc(100vh - 100px);
 }
 
 .main-box {
 	width: 50%;
 	display: inline-block;
-	height: 800px;
+	height: 100%;
 }
 
 .info-mobile {
@@ -109,6 +109,7 @@ input[type=text] {
 
 input[type=text]:focus, textarea:focus {
 	border-bottom: 2px solid #6200EA;
+	outline: none;
 }
 
 ::placeholder {
